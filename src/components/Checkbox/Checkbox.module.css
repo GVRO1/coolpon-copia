@@ -1,0 +1,13 @@
+@layer components {
+	.container {
+		@apply flex items-center space-x-2;
+	}
+
+	.checkbox {
+		@apply border-2 border-gray-300 form-checkbox;
+	}
+
+	.label {
+		@apply font-medium text-gray-900 text-x2;
+	}
+}

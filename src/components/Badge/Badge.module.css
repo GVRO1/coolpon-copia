@@ -1,0 +1,21 @@
+@layer components {
+	.badge {
+		@apply px-2 py-1 font-medium rounded-full text-x2;
+	}
+
+	.badgeBlue {
+		@apply text-blue-900 bg-blue-200;
+	}
+
+	.badgeGreen {
+		@apply text-green-900 bg-green-200;
+	}
+
+	.badgeYellow {
+		@apply text-yellow-900 bg-yellow-200;
+	}
+
+	.badgeRed {
+		@apply text-red-900 bg-red-200;
+	}
+}

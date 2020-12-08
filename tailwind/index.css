@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	#__next {
+		@apply antialiased;
+	}
+
+	button:focus,
+	input:focus {
+		@apply outline-none;
+	}
+}

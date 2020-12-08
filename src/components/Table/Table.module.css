@@ -1,0 +1,37 @@
+@layer components {
+	.table {
+		@apply block max-w-full overflow-auto sm:table sm:w-full;
+	}
+
+	.head {
+		@apply p-4 font-medium text-gray-900 uppercase whitespace-no-wrap bg-gray-400 text-x1;
+	}
+
+	.head:first-child {
+		@apply rounded-tl;
+	}
+
+	.head:last-child {
+		@apply rounded-tr;
+	}
+
+	.headRow {
+		@apply text-left;
+	}
+
+	.bodyRow {
+		@apply text-left transition duration-300 ease-in-out cursor-pointer;
+	}
+
+	.bodyRow:nth-child(even) {
+		@apply bg-white hover:bg-gray-300;
+	}
+
+	.bodyRow:nth-child(odd) {
+		@apply bg-gray-100 hover:bg-gray-300;
+	}
+
+	.data {
+		@apply max-w-xs p-4 text-gray-800 truncate whitespace-no-wrap text-x2;
+	}
+}

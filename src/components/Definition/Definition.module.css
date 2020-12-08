@@ -1,0 +1,13 @@
+@layer components {
+	.container {
+		@apply flex space-x-2;
+	}
+
+	.term {
+		@apply font-medium text-gray-900;
+	}
+
+	.description {
+		@apply text-gray-800;
+	}
+}

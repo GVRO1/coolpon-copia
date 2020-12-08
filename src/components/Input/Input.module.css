@@ -1,0 +1,34 @@
+@layer components {
+	.container {
+		@apply w-full space-y-1 text-left;
+	}
+
+	.label {
+		@apply font-medium text-gray-900 text-x2;
+	}
+
+	.input {
+		@apply block w-full p-4 text-gray-800 transition duration-300 ease-in-out bg-gray-100 border-b-2 border-gray-300 rounded-t text-x2;
+	}
+
+	.input:hover {
+		@apply bg-gray-200 border-gray-600;
+	}
+
+	.input:focus {
+		@apply bg-blue-200 border-blue-600;
+	}
+
+	.inputError {
+		@apply bg-red-100 border-red-300;
+	}
+
+	.inputError:hover,
+	.inputError:focus {
+		@apply bg-red-200 border-red-600;
+	}
+
+	.errorMessage {
+		@apply text-red-800 text-x1;
+	}
+}

@@ -1,0 +1,25 @@
+@layer components {
+	.container {
+		@apply h-full p-4 space-y-8 md:space-y-16;
+	}
+
+	.header {
+		@apply max-w-lg mx-auto space-y-1 text-center;
+	}
+
+	.image {
+		@apply mx-auto;
+	}
+
+	.heading {
+		@apply font-bold text-gray-900 text-x4;
+	}
+
+	.description {
+		@apply text-gray-800 text-x2;
+	}
+
+	.content {
+		@apply w-full max-w-5xl mx-auto;
+	}
+}
